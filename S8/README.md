@@ -49,21 +49,21 @@ We see that the graphs portray BN > GN (4 groups) > LN consistently in all the t
 
 Total Incorrect Preds = 2061
 
-![BN](../S8/Images/Batch_norm.png)
+![Batch_norm](../S8/Images/Batch_norm_missclassified.png)
 
 
 **Group Norm**
 
 Total Incorrect Preds = 2516
 
-![GN](../S8/Images/Group_norm.png)
+![GN](../S8/Images/Group_norm_missclassified.png)
 
 
 **Layer Norm**
 
 Total Incorrect Preds = 3139
 
-![LN](../S8/Images/Layer_norm.png)
+![LN](../S8/Images/Layer_norm_missclassified.png)
 
 We see that the misclassified images in all three models have classes very close to each other as misclassified. These misclassified images would be hard for a human to classify correctly too!
 
